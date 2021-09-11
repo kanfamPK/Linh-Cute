@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        .div1 {
-            color: white;
-            padding: 50px;
-            margin: 50px;
-            background-color: purple;
-            border: 5px solid red;
+      /* .css-selector {
+        background: linear-gradient(324deg, #00ffbd, #f5924f);
+        background-size: 400% 400%;
+        height: 500px;
+        animation: AnimationName 3s ease infinite;
+      }
+
+      @keyframes AnimationName {
+        0% {
+          background-position: 51% 0%;
         }
-        .span1 {
-            padding: 20px;
-            margin: 50px;
-            background-color: green;
-            border: 5px solid yellow;
+        50% {
+          background-position: 50% 100%;
         }
-        .span2 {
-            padding: 20px;
-            margin: 50px;
-            background-color: yellow;
-            border: 5px solid green;
+        100% {
+          background-position: 51% 0%;
         }
-        .div2 {
-            padding: 50px;
-            margin: 50px;
-            background-color: aquamarine;
-            border: 5px solid blue;
-        }
+      } */
+      .hinh {
+        transition: all 2s;
+        border-radius: 50%;
+        margin-right: 60px;
+      }
+      .hinh:hover {
+        width: 128px;
+      }
+      .hinh2 {
+        transition: all 2s;
+        opacity: 0.1;
+      }
+      .hinh2:hover {
+        opacity: 1;
+      }
     </style>
-</head>
-<body>
-    <div class="div1">
-        Đây là Div 1
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 style="color: purple;">Đây là công chúa Linh Leo, một nàng công chúa cực kì cute phô mai que, hover vào cô ấy để thấy điều kì diệu nhé</h1>
+      <img class="hinh" src="em.jpg" width="64px">
+      <img class="hinh2" src="em2.jpg" width="256px">
     </div>
-    <span class="span1">Đây là span 1</span>
-    <span class="span2">Đây là span 2</span>
-    <div class="div1">Đây là Div 2</div>
-    <div class="div2">Đây là Div 3</div>
-</body>
+  </body>
 </html>
