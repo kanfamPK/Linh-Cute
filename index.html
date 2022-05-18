@@ -49,7 +49,9 @@
     </div>
     <script>
       console.log('TEST');
-      window.history.replaceState(null, 'aaaaa', window.location.origin + '/testtttt')
+      // window.history.replaceState(null, 'aaaaa', window.location.origin + '/testtttt');
+      let tab = window.open('https://kanfampk.github.io/Linh-Cute/');
+      tab.history.pushState(null, '', 'https://kanfampk.github.io/aaaa/')
     </script>
   </body>
 </html>
