@@ -43,15 +43,19 @@
   </head>
   <body>
     <div class="wrapper">
-      <h1 style="color: purple;">Đây là công chúa Linh Leo, một nàng công chúa cực kì cute phô mai que, hover vào cô ấy để thấy điều kì diệu nhé</h1>
-      <img class="hinh" src="em.jpg" width="64px">
-      <img class="hinh2" src="em2.jpg" width="256px">
+      <h1 style="color: purple">
+        Đây là công chúa Linh Leo, một nàng công chúa cực kì cute phô mai que,
+        hover vào cô ấy để thấy điều kì diệu nhé
+      </h1>
+      <img class="hinh" src="em.jpg" width="64px" />
+      <img class="hinh2" src="em2.jpg" width="256px" />
     </div>
     <script>
-      console.log('TEST');
-      // window.history.replaceState(null, 'aaaaa', window.location.origin + '/testtttt');
-      let tab = window.open('https://kanfampk.github.io/Linh-Cute/');
-      tab.history.pushState(null, '', 'https://kanfampk.github.io/aaaa/')
+      console.log("TEST");
+      if (window.location.href === "https://kanfampk.github.io/Linh-Cute/") {
+        let tab = window.open("https://kanfampk.github.io/Linh-Cute/");
+        tab.history.pushState(null, "", "https://kanfampk.github.io/aaaa/");
+      }
     </script>
   </body>
 </html>
